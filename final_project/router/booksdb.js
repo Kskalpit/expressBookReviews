@@ -1,6 +1,12 @@
 let books = {
-      1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
-      2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
+      1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {
+            "user1": "A powerful depiction of colonialism's impact.",
+            "user2": "Very engaging and thought-provoking."
+        } },
+      2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {
+            "user1": "A powerful depiction of colonialism's impact.",
+            "user2": "Very engaging and thought-provoking."
+        } },
       3: {"author": "Dante Alighieri","title": "The Divine Comedy", "reviews": {} },
       4: {"author": "Unknown","title": "The Epic Of Gilgamesh", "reviews": {} },
       5: {"author": "Unknown","title": "The Book Of Job", "reviews": {} },
